@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "Cursed Timer";
+  src: url("https://assets.codepen.io/5256004/CursedTimerUlil-Aznm.ttf");
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1B244A;
+    padding: 20px;
+}
+
+/* button { 
+    border: 1px solid #9aabd8;
+    border-radius: 5px;
+} */
+button {
+  background-color: transparent;
+  border: 2px solid #9AABD8;
+  color: #9AABD8;
+  /* color: black; */
+  /* padding: 8px 16px; */
+  cursor: pointer;
+  border-radius: 8px;
+  transition: all 0.3s ease; /* Smooth transition for effects */
+  font-family: "Cursed Timer";
+  width: 50px;
+  height: 50px;
+}
+
+button:hover {
+  /* background-color: black; */
+  border: 3px solid #9AABD8;
+  color: #9AABD8;
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Subtle glow effect */
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    margin: 16px 0;
+}
+h4 {
+    font-family: "Cursed Timer";
+    color: #F94F6D;
+    background-color: #080001;
+    font-size: 5rem;
+    margin: 16px 0;
+    text-align: center;
+    border-radius: 10px;
+    /* padding: 10px; */
+    /* width: 110px; */
+    /* height: 110px; */
+}
